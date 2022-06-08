@@ -25,7 +25,6 @@
     grid-area: header;
     display: flex;
     align-items: center;
-    margin: -1px;
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
@@ -420,6 +419,13 @@
     border-radius: 1.25rem;
 }
 
+.form button {
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    height: 34px;
+    width: 71px;
+    margin: 10px;
+}
 
 
 
@@ -449,6 +455,11 @@
     .main h1 {
         margin-top: 0px;
         height: 121px;
+        font-size: 40px;
+    }
+
+    .main h2 {
+        font-size: 1.5rem;
     }
 
     .main img {
@@ -496,13 +507,17 @@
     }
 
     .cursos h1 {
-        padding: 10px;
-        font-size: 3rem;
+        padding: 20px 12px;
         text-align: center;
     }
 
     .cursos video {
         margin: 20px;
+        max-height: 325px;
+    }
+
+    .cursos p {
+        font-size: 1.5rem;
     }
 
     /* -----------RESPONSIVE CONTACTO--------- */
@@ -514,6 +529,8 @@
 
     .form input {
         text-align: center;
+        max-height: 12px;
+        max-width: 200px;
     }
 
     .form textarea {
